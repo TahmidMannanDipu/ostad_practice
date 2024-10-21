@@ -67,6 +67,7 @@ class EmailVerificationPage extends StatelessWidget {
                     const SizedBox(
                       height: 32,
                     ),
+
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16.0),
                       child: ReusableWidget.buildButton(context, title: "Next"),

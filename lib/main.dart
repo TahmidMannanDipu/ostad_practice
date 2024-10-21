@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ostad_class_practice/reuseable_widget/theme_data.dart';
-import 'package:ostad_class_practice/ui/email_verification_page/email_verification_page.dart'; // Make sure to import this
+import 'package:ostad_class_practice/ui/chat_app/chat_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Email Verification",
-      theme: myThemeData(),
-      home: const EmailVerificationPage(),
+      title: "Practice UI",
+      //theme: myThemeData(),
+      home: ChatApp(),
     );
   }
 }
-
-
